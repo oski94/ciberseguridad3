@@ -1,0 +1,24 @@
+{
+    "id": "36276273",
+    "path": "~/R/manual/index.Rmd",
+    "project_path": "index.Rmd",
+    "type": "r_markdown",
+    "hash": "3252995340",
+    "contents": "",
+    "dirty": false,
+    "created": 1654811725233.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "19,21",
+        "scrollLine": "8"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1654827942,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1654827952263,
+    "read_only": false,
+    "read_only_alternatives": []
+}

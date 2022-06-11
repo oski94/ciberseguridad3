@@ -1,0 +1,24 @@
+{
+    "id": "B5CC27BD",
+    "path": "~/R/manual/05-blocks.Rmd",
+    "project_path": "05-blocks.Rmd",
+    "type": "r_markdown",
+    "hash": "630879930",
+    "contents": "",
+    "dirty": false,
+    "created": 1654824278629.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "cursorPosition": "12,0",
+        "scrollLine": "11"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1654826320,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1654826321795,
+    "read_only": false,
+    "read_only_alternatives": []
+}

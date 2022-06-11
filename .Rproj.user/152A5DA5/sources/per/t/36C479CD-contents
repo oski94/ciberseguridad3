@@ -1,0 +1,30 @@
+# Medios extraíbles
+Otro tema de concienciación sobre la seguridad que se utiliza a diario en las empresas son los medios extraíbles. Los medios extraíbles son aquellos soportes de almacenamiento portátiles que permiten a los usuarios copiar datos en el dispositivo y luego extraerlos del mismo para llevarlos a otro y viceversa. Los dispositivos USB que contienen malware pueden quedar a la vista de los usuarios finales cuando los conectan a su dispositivo.
+         " Unos investigadores dejaron caer casi 300 memorias USB en el campus de la Universidad de Illinois Urbana-Champaign. El 98% de estas unidades fueron recogidas. Además, el 45% de estas unidades no sólo fueron recogidas, sino que los individuos hicieron clic en los archivos que encontraron dentro ".*
+Además de conocer los riesgos, los empleados deben saber cómo utilizar estos dispositivos de forma segura y responsable en la empresa. Existen numerosas razones por las que una empresa puede decidir utilizar medios extraíbles en su entorno. Sin embargo, con todas las tecnologías, siempre habrá riesgos potenciales. Además de los propios dispositivos, es importante que los empleados protejan los datos que contienen. Ya sean personales o corporativos, todos los datos tienen algún tipo de valor.
+Algunos ejemplos comunes de medios extraíbles que tú y tus empleados podéis utilizar en el lugar de trabajo son:
+•	Memorias USB
+•	Tarjetas SD
+•	Los CD
+•	Teléfonos inteligentes
+Este tema de concienciación sobre la seguridad debe incluirse en la formación y abarcar ejemplos de medios extraíbles, por qué se utilizan en las empresas, así como el modo en que los empleados pueden prevenir los riesgos, como la pérdida o el robo de dispositivos extraíbles, las infecciones por malware y la infracción de los derechos de autor.
+
+##  Contraseñas y autenticación
+Un elemento muy sencillo, pero que a menudo se pasa por alto, que puede ayudar a la seguridad de una empresa es la seguridad de las contraseñas. A menudo, las contraseñas más utilizadas serán adivinadas por actores maliciosos con la esperanza de obtener acceso a las cuentas. La utilización de contraseñas sencillas o la existencia de patrones de contraseñas reconocibles para los empleados puede facilitar a los ciberdelincuentes el acceso a una gran variedad de cuentas. Una vez robada esta información, puede hacerse pública o venderse con fines lucrativos en la deep web.
+La implementación de contraseñas aleatorias puede dificultar mucho más el acceso de los actores maliciosos a una serie de cuentas. Otros pasos, como la autenticación de dos factores, proporcionan capas adicionales de seguridad que protegen la integridad de la cuenta.
+Su entrenamiento de mejores prácticas de contraseña debe incluir:
+•	Utilice la autenticación de dos factores (2FA) y la autenticación de múltiples factores (MFA) siempre que sea posible.
+•	Las contraseñas deben tener 8 caracteres o más.
+•	Las contraseñas no deberían ser tan comunes que se puedan violar en un instante. Por ejemplo, no use palabras como “contraseña” o “qwerty”.
+•	Use contraseñas únicas para cada sitio y servicio; no compartir entre sitios
+•	Cree y use cuidadosamente las “preguntas de restablecimiento” de la contraseña para asegurarse de que no contengan respuestas que sean fáciles de encontrar (como el apellido de soltera de su madre).
+
+## Manejo de correo electrónico e internet  
+La mayoría de la malicia digital comienza con un correo electrónico no solicitado que contiene un archivo adjunto o un enlace malicioso, pidiéndole al destinatario que haga clic o se abra. Si su equipo está bien versado sobre cómo manejar adecuadamente los peligros inevitables del correo electrónico sin exponer a la compañía al riesgo, el correo electrónico no será su ruina. Por esta razón, el coaching por correo electrónico para todos los que usan una computadora de la empresa, o sus servidores, debería ser una parte clave de cualquier plan educativo para el usuario final.
+Las mejores prácticas de manejo de correo electrónico deben incluir:
+•	Entrene a la gente para que siempre sea un poco escéptico ante cualquier correo electrónico inesperado.
+•	Enseñe a todos a no hacer clic en un archivo adjunto que no esperaban. Llame al remitente primero para confirmar su origen.
+•	Nunca haga clic en ningún enlace de Internet inesperado sin verificar que el dominio URL sea legítimo.
+•	No habilite “contenido activo” en correos electrónicos de fuentes no confiables.
+•	Informe de correos electrónicos sospechosos a la seguridad de TI.
+•	Nunca haga clic en “Responder a todos” en grandes publicaciones de correo electrónico.

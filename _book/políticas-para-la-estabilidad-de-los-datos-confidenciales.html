@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 políticas para la estabilidad de los datos confidenciales | _main.knit</title>
+  <meta name="description" content="" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 políticas para la estabilidad de los datos confidenciales | _main.knit" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 políticas para la estabilidad de los datos confidenciales | _main.knit" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="medios-extraíbles.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Manual de seguridad</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#contenido"><i class="fa fa-check"></i><b>1.1</b> Contenido</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="políticas-para-la-estabilidad-de-los-datos-confidenciales.html"><a href="políticas-para-la-estabilidad-de-los-datos-confidenciales.html"><i class="fa fa-check"></i><b>2</b> políticas para la estabilidad de los datos confidenciales</a><ul>
+<li class="chapter" data-level="2.1" data-path="políticas-para-la-estabilidad-de-los-datos-confidenciales.html"><a href="políticas-para-la-estabilidad-de-los-datos-confidenciales.html#ataques-de-phishing"><i class="fa fa-check"></i><b>2.1</b> Ataques de phishing</a></li>
+<li class="chapter" data-level="2.2" data-path="políticas-para-la-estabilidad-de-los-datos-confidenciales.html"><a href="políticas-para-la-estabilidad-de-los-datos-confidenciales.html#entrenamiento-dirigido"><i class="fa fa-check"></i><b>2.2</b> Entrenamiento dirigido</a></li>
+<li class="chapter" data-level="2.3" data-path="políticas-para-la-estabilidad-de-los-datos-confidenciales.html"><a href="políticas-para-la-estabilidad-de-los-datos-confidenciales.html#seguridad-en-el-hogar"><i class="fa fa-check"></i><b>2.3</b> Seguridad en el hogar</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="medios-extraíbles.html"><a href="medios-extraíbles.html"><i class="fa fa-check"></i><b>3</b> Medios extraíbles</a><ul>
+<li class="chapter" data-level="3.1" data-path="medios-extraíbles.html"><a href="medios-extraíbles.html#contraseñas-y-autenticación"><i class="fa fa-check"></i><b>3.1</b> Contraseñas y autenticación</a></li>
+<li class="chapter" data-level="3.2" data-path="medios-extraíbles.html"><a href="medios-extraíbles.html#manejo-de-correo-electrónico-e-internet"><i class="fa fa-check"></i><b>3.2</b> Manejo de correo electrónico e internet</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="seguridad-física.html"><a href="seguridad-física.html"><i class="fa fa-check"></i><b>4</b> Seguridad física</a><ul>
+<li class="chapter" data-level="4.1" data-path="seguridad-física.html"><a href="seguridad-física.html#seguridad-de-los-dispositivos-móviles"><i class="fa fa-check"></i><b>4.1</b> Seguridad de los dispositivos móviles</a></li>
+<li class="chapter" data-level="4.2" data-path="seguridad-física.html"><a href="seguridad-física.html#trabajar-a-distancia"><i class="fa fa-check"></i><b>4.2</b> Trabajar a distancia</a></li>
+<li class="chapter" data-level="4.3" data-path="seguridad-física.html"><a href="seguridad-física.html#wi-fi-público"><i class="fa fa-check"></i><b>4.3</b> Wi-Fi público</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="seguridad-en-la-nube.html"><a href="seguridad-en-la-nube.html"><i class="fa fa-check"></i><b>5</b> Seguridad en la nube</a><ul>
+<li class="chapter" data-level="5.1" data-path="seguridad-en-la-nube.html"><a href="seguridad-en-la-nube.html#uso-aceptable-del-equipo"><i class="fa fa-check"></i><b>5.1</b> Uso aceptable del equipo</a></li>
+<li class="chapter" data-level="5.2" data-path="seguridad-en-la-nube.html"><a href="seguridad-en-la-nube.html#uso-seguro-del-navegador"><i class="fa fa-check"></i><b>5.2</b> Uso seguro del navegador</a></li>
+<li class="chapter" data-level="5.3" data-path="seguridad-en-la-nube.html"><a href="seguridad-en-la-nube.html#protección-de-datos"><i class="fa fa-check"></i><b>5.3</b> Protección de Datos</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="informar-incidentes.html"><a href="informar-incidentes.html"><i class="fa fa-check"></i><b>6</b> Informar incidentes</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="políticas-para-la-estabilidad-de-los-datos-confidenciales" class="section level1 hasAnchor">
+<h1><span class="header-section-number">Chapter 2</span> políticas para la estabilidad de los datos confidenciales<a href="políticas-para-la-estabilidad-de-los-datos-confidenciales.html#políticas-para-la-estabilidad-de-los-datos-confidenciales" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Se necesita que la organización tenga por escrito las políticas en ciberseguridad que regirán el trabajo diario, y que estas sean compartidas con todo el personal. Además de esto, es aconsejable reforzar el razonamiento de las políticas en ciberseguridad con la ayuda de debates a lo largo de el proceso de capacitación y a lo largo de el lapso de trabajo en la compañía.</p>
+<p>política de protección de datos.
+política de contraseñas.
+política de actualizaciones.
+política de almacenamiento y copias de seguridad.
+política de seguridad en el puesto de trabajo.
+política de uso de correo electrónico.
+política de uso de wifi y redes externas.
+política de clasificación de la información.</p>
+<div id="ataques-de-phishing" class="section level2 hasAnchor">
+<h2><span class="header-section-number">2.1</span> Ataques de phishing<a href="políticas-para-la-estabilidad-de-los-datos-confidenciales.html#ataques-de-phishing" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>En el último año hemos visto un enorme aumento de los ataques de phishing. En particular, hubo una gran cantidad de correos electrónicos de phishing relacionados con la pandemia. El Grupo de Análisis de Amenazas de Google informó a mediados de abril de que había bloqueado 18 millones de correos electrónicos de malware y phishing con temática COVID-19 al día.
+Los ataques de phishing siguen siendo la causa más común de las violaciones de la ciberseguridad. Las cifras actuales reflejan claramente la necesidad de concienciación sobre los ataques de phishing, según las investigaciones el 91% de los ciberataques que tienen éxito son el resultado de una estafa de phishing..
+Aunque las empresas son cada vez más conscientes del phishing, sigue siendo una amenaza creciente en 2021, en parte debido a la falta de concienciación de los empleados. Si se impulsa la formación en seguridad como parte de la filosofía de la empresa a través de una formación recurrente de concienciación en materia de seguridad, esta cifra puede reducirse drásticamente con el tiempo.
+El “spearphishing” es una forma de ataque más sofisticada y dirigida, que utiliza a trabajadores específicos de la empresa para dar legitimidad a un correo electrónico dirigido a un conjunto concreto de usuarios finales. Un correo electrónico en el que se suplanta al director general, por ejemplo, es probable que sea pulsado por la mayoría de los empleados, y podría contener un malware adjunto. La eficacia de este tipo de ataques ha dado lugar a nuevos y sofisticados desarrollos, como el vishing y el smishing.
+Al formar a los usuarios finales para que reconozcan los correos electrónicos potencialmente dañinos y denuncien los sospechosos, esta amenaza puede reducirse considerablemente. Al ofrecer cursos de formación en ciberseguridad, la concienciación de los empleados sobre este tipo de ataques puede mejorarse enormemente con una formación constante. La simulación de ataques de phishing puede demostrar el riesgo potencial de estos ataques para la empresa.</p>
+</div>
+<div id="entrenamiento-dirigido" class="section level2 hasAnchor">
+<h2><span class="header-section-number">2.2</span> Entrenamiento dirigido<a href="políticas-para-la-estabilidad-de-los-datos-confidenciales.html#entrenamiento-dirigido" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Los tipos específicos de usuarios necesitan capacitación precisa para contrarrestar el spear phishing específico que puedan encontrar. El departamento de contabilidad, por ejemplo, necesita comprender por qué son un objetivo potencial. El CEO y otras personas con acceso privilegiado también necesitan comprender este tipo de ingeniería social específica.
+Y esto no puede ser una sesión de entrenamiento general para cubrir todo el phishing de lanza. Porque si los detalles de la situación parecen irrelevantes, es probable que tus alumnos se lo lleven. Los phishers de Spear están interesados en usar detalles personales y las tareas de proyectos en curso de una persona para calmar a una víctima para que abra correos electrónicos maliciosos y ejecute archivos adjuntos no autorizados. ¡Defiéndete de la misma manera! Use los mismos detalles que usaría un phisher de lanza para llegar a una víctima para crear su programa de entrenamiento.
+La capacitación dirigida incluye:
+• Fraude de transferencias financieras para empleados capaces de transferir dinero
+• El escepticismo necesario frente a las solicitudes del CEO de “emergencia” para los empleados que prestan servicios al CEO
+• Capacitación contra restablecimientos de contraseñas fraudulentas para empleados que pueden restablecer contraseñas
+• Entrenamiento contra credenciales de reingreso inesperadas después de leer el correo electrónico
+• Entrenamiento estacional para diferentes épocas del año, como W-2 o fraude fiscal cerca de la temporada de impuestos</p>
+
+</div>
+<div id="seguridad-en-el-hogar" class="section level2 hasAnchor">
+<h2><span class="header-section-number">2.3</span> Seguridad en el hogar<a href="políticas-para-la-estabilidad-de-los-datos-confidenciales.html#seguridad-en-el-hogar" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Desafortunadamente, la amenaza de los actores maliciosos no desaparece cuando se abandona el lugar de trabajo. Muchas empresas permiten a sus empleados utilizar sus dispositivos personales, lo que supone un gran ahorro de costes y permite un trabajo flexible, sin embargo, existen riesgos asociados a ello. Las aplicaciones descargadas involuntariamente con malware en los dispositivos personales pueden poner en riesgo la integridad de la red de la empresa si, por ejemplo, se comprometen los datos de acceso.
+Además, la creciente red de recursos digitales a disposición de los trabajadores y las empresas ha aumentado la conectividad y la productividad. Sin embargo, estas aplicaciones también suponen un riesgo para el usuario: un estudio de Propeller descubrió que las campañas de phishing dirigidas a Dropbox tenían un porcentaje de clics del 13,6%. Aumentar el conocimiento de los empleados, compartir archivos encriptados y autenticar las descargas reducirá el riesgo.</p>
+<p>Bloqueo de pantalla
+A menos que sean educados para ser conscientes de los riesgos, la mayoría de los usuarios de computadoras nunca pensarían en bloquear la pantalla de su computadora antes de alejarse de una computadora o dispositivo. Pero dejar una computadora a disposición de cualquiera puede dañar su identidad o compañía. En el extremo bajo de riesgo, un compañero de trabajo travieso podría enviar un correo electrónico de broma en su nombre. Pero cosas peores han sucedido. Las computadoras y dispositivos desbloqueados terminaron causando graves daños a la reputación de las compañías y usuarios inconscientes.
+Todos los usuarios necesitan que se les enseñe a bloquear la pantalla de su dispositivo cuando ya no estén cerca o en el control inmediato del dispositivo.
+Las mejores prácticas de bloqueo de pantalla incluyen:
+• Los usuarios SIEMPRE deben bloquear su dispositivo al salir de la vecindad.
+• Se debe solicitar a los usuarios que se autentiquen para desbloquear su dispositivo.
+• Un dispositivo inactivo siempre debe bloquearse después de menos de 10 minutos.
+• Un dispositivo bloqueado nunca debe revelar su contenido.</p>
+
+<p>Medios extraíbles
+Otro tema de concienciación sobre la seguridad que se utiliza a diario en las empresas son los medios extraíbles. Los medios extraíbles son aquellos soportes de almacenamiento portátiles que permiten a los usuarios copiar datos en el dispositivo y luego extraerlos del mismo para llevarlos a otro y viceversa. Los dispositivos USB que contienen malware pueden quedar a la vista de los usuarios finales cuando los conectan a su dispositivo.
+" Unos investigadores dejaron caer casi 300 memorias USB en el campus de la Universidad de Illinois Urbana-Champaign. El 98% de estas unidades fueron recogidas. Además, el 45% de estas unidades no sólo fueron recogidas, sino que los individuos hicieron clic en los archivos que encontraron dentro ".*
+Además de conocer los riesgos, los empleados deben saber cómo utilizar estos dispositivos de forma segura y responsable en la empresa. Existen numerosas razones por las que una empresa puede decidir utilizar medios extraíbles en su entorno. Sin embargo, con todas las tecnologías, siempre habrá riesgos potenciales. Además de los propios dispositivos, es importante que los empleados protejan los datos que contienen. Ya sean personales o corporativos, todos los datos tienen algún tipo de valor.
+Algunos ejemplos comunes de medios extraíbles que tú y tus empleados podéis utilizar en el lugar de trabajo son:
+• Memorias USB
+• Tarjetas SD
+• Los CD
+• Teléfonos inteligentes
+Este tema de concienciación sobre la seguridad debe incluirse en la formación y abarcar ejemplos de medios extraíbles, por qué se utilizan en las empresas, así como el modo en que los empleados pueden prevenir los riesgos, como la pérdida o el robo de dispositivos extraíbles, las infecciones por malware y la infracción de los derechos de autor.</p>
+<p>Contraseñas y autenticación
+Un elemento muy sencillo, pero que a menudo se pasa por alto, que puede ayudar a la seguridad de una empresa es la seguridad de las contraseñas. A menudo, las contraseñas más utilizadas serán adivinadas por actores maliciosos con la esperanza de obtener acceso a las cuentas. La utilización de contraseñas sencillas o la existencia de patrones de contraseñas reconocibles para los empleados puede facilitar a los ciberdelincuentes el acceso a una gran variedad de cuentas. Una vez robada esta información, puede hacerse pública o venderse con fines lucrativos en la deep web.
+La implementación de contraseñas aleatorias puede dificultar mucho más el acceso de los actores maliciosos a una serie de cuentas. Otros pasos, como la autenticación de dos factores, proporcionan capas adicionales de seguridad que protegen la integridad de la cuenta.
+Su entrenamiento de mejores prácticas de contraseña debe incluir:
+• Utilice la autenticación de dos factores (2FA) y la autenticación de múltiples factores (MFA) siempre que sea posible.
+• Las contraseñas deben tener 8 caracteres o más.
+• Las contraseñas no deberían ser tan comunes que se puedan violar en un instante. Por ejemplo, no use palabras como “contraseña” o “qwerty”.
+• Use contraseñas únicas para cada sitio y servicio; no compartir entre sitios
+• Cree y use cuidadosamente las “preguntas de restablecimiento” de la contraseña para asegurarse de que no contengan respuestas que sean fáciles de encontrar (como el apellido de soltera de su madre).</p>
+<p>Manejo de correo electrónico e internet<br />
+La mayoría de la malicia digital comienza con un correo electrónico no solicitado que contiene un archivo adjunto o un enlace malicioso, pidiéndole al destinatario que haga clic o se abra. Si su equipo está bien versado sobre cómo manejar adecuadamente los peligros inevitables del correo electrónico sin exponer a la compañía al riesgo, el correo electrónico no será su ruina. Por esta razón, el coaching por correo electrónico para todos los que usan una computadora de la empresa, o sus servidores, debería ser una parte clave de cualquier plan educativo para el usuario final.
+Las mejores prácticas de manejo de correo electrónico deben incluir:
+• Entrene a la gente para que siempre sea un poco escéptico ante cualquier correo electrónico inesperado.
+• Enseñe a todos a no hacer clic en un archivo adjunto que no esperaban. Llame al remitente primero para confirmar su origen.
+• Nunca haga clic en ningún enlace de Internet inesperado sin verificar que el dominio URL sea legítimo.
+• No habilite “contenido activo” en correos electrónicos de fuentes no confiables.
+• Informe de correos electrónicos sospechosos a la seguridad de TI.
+• Nunca haga clic en “Responder a todos” en grandes publicaciones de correo electrónico.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="medios-extraíbles.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/01-intro.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

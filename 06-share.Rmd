@@ -1,0 +1,37 @@
+# Seguridad en la nube
+La computación en la nube ha revolucionado las empresas y la forma de almacenar y acceder a los datos. Estas aplicaciones digitales están transformando las empresas, pero el hecho de que grandes cantidades de datos privados se almacenen de forma remota conlleva el riesgo de que se produzcan hackeos a gran escala. Muchas grandes empresas están trabajando en la protección de datos, pero si se elige el proveedor de servicios en la nube adecuado, el almacenamiento en la nube puede ser una forma mucho más segura y rentable de almacenar los datos de la empresa.
+Al igual que en los otros temas mencionados, la piratería interna es una amenaza mucho mayor que para las empresas de la nube a gran escala. Gartner predice que para el próximo año, el 99% de los incidentes de seguridad en la nube serán culpa del usuario final. Por lo tanto, la formación en ciberseguridad puede ayudar a guiar a los empleados en el uso seguro de las aplicaciones basadas en la nube.
+
+
+## Uso aceptable del equipo 
+•	Los dispositivos comerciales son propiedad exclusiva de la empresa. Solo el negocio puede asignar, eliminar y determinar el control sobre esos dispositivos.
+•	No hay expectativas de privacidad cuando se utiliza un dispositivo de propiedad empresarial. La compañía puede leer los correos electrónicos de los empleados u otras comunicaciones a su propia discreción, sin previo aviso.
+•	No se permiten actividades ilegales o poco éticas en dispositivos comerciales.
+•	La empresa puede deshabilitar o restablecer cualquier contraseña creada por el usuario sin previo aviso.
+•	El uso personal está permitido siempre que no sea excesivo (según lo determine la empresa) y no viole una de las pautas anteriores.
+•	El incumplimiento de este acuerdo de uso aceptable puede dar lugar a acciones adversas, incluida la eliminación del mismo dispositivo de la compañía y hasta la terminación.
+##Uso de las redes sociales
+Todos compartimos gran parte de nuestras vidas en las redes sociales: desde las vacaciones hasta los eventos y el trabajo. Pero compartir en exceso puede hacer que la información sensible esté disponible, lo que facilita que un actor malicioso se haga pasar por una fuente de confianza (consulta: la ingeniería social).
+Educar a los empleados en la protección de la configuración de privacidad de sus cuentas de redes sociales y evitar la difusión de información pública de su empresa reducirá el riesgo de la ventaja potencial que los hackers pueden obtener de este acceso a la red personal.
+
+
+
+## Uso seguro del navegador
+Usar un navegador para navegar por Internet es una actividad de alto riesgo. Todos los miembros de su empresa deben aprender a navegar de forma inteligente y segura por Internet sin ejecutar archivos o contenido malicioso.
+Las mejores prácticas de navegación en Internet deben incluir:
+•	Instrucciones para garantizar que su navegador esté completamente parcheado contra vulnerabilidades de seguridad críticas.
+•	Advertencias contra la instalación de complementos innecesarios sin la aprobación del administrador.
+•	Precauciones contra la navegación por Internet con una cuenta altamente privilegiada (por ejemplo, la del administrador).
+•	Advertencias de no ejecutar ejecutables inesperados presentados en un navegador.
+•	Capacitación sobre cómo verificar la legitimidad de los dominios URL.
+Pautas sobre qué hacer al encontrar instrucciones en línea que le indican que evite, o cómo evitar, las advertencias de seguridad. 
+
+## Protección de Datos
+La importancia de la protección de datos se ha enfocado con las nuevas leyes y regulaciones de privacidad y protección de datos como el GDPR de Europa y la Ley de Privacidad del Consumidor de California (CCPA). Además de asegurarse de que los datos que recopila son necesarios y se recopilan y utilizan legalmente, su capacitación en protección de datos también debe cubrir estos temas importantes:
+•	Una definición de qué tipo de información necesita ser protegida, con ejemplos.
+•	Cómo deshacerse de los datos cuando ya no se necesitan.
+•	La necesidad de cifrar todos los datos confidenciales cuando están en reposo y durante las comunicaciones de red.
+•	La necesidad de etiquetar los datos de acuerdo con su sensibilidad o criticidad (por ejemplo, alto secreto, secreto, confidencial, público, etc.)
+•	Protocolos y la documentación requerida para compartir datos.
+•	La importancia de hacer una copia de seguridad de los datos críticos, encriptados y protegidos con contraseña, en dos o más lugares.
+•	Aliente al personal a discutir estos problemas con su oficial de protección de datos cuando tenga alguna duda.

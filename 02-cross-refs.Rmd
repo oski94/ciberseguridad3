@@ -1,0 +1,23 @@
+## Seguridad en el hogar
+Desafortunadamente, la amenaza de los actores maliciosos no desaparece cuando se abandona el lugar de trabajo. Muchas empresas permiten a sus empleados utilizar sus dispositivos personales, lo que supone un gran ahorro de costes y permite un trabajo flexible, sin embargo, existen riesgos asociados a ello. Las aplicaciones descargadas involuntariamente con malware en los dispositivos personales pueden poner en riesgo la integridad de la red de la empresa si, por ejemplo, se comprometen los datos de acceso.
+Además, la creciente red de recursos digitales a disposición de los trabajadores y las empresas ha aumentado la conectividad y la productividad. Sin embargo, estas aplicaciones también suponen un riesgo para el usuario: un estudio de Propeller descubrió que las campañas de phishing dirigidas a Dropbox tenían un porcentaje de clics del 13,6%. Aumentar el conocimiento de los empleados, compartir archivos encriptados y autenticar las descargas reducirá el riesgo.
+
+Bloqueo de pantalla
+A menos que sean educados para ser conscientes de los riesgos, la mayoría de los usuarios de computadoras nunca pensarían en bloquear la pantalla de su computadora antes de alejarse de una computadora o dispositivo. Pero dejar una computadora a disposición de cualquiera puede dañar su identidad o compañía. En el extremo bajo de riesgo, un compañero de trabajo travieso podría enviar un correo electrónico de broma en su nombre. Pero cosas peores han sucedido. Las computadoras y dispositivos desbloqueados terminaron causando graves daños a la reputación de las compañías y usuarios inconscientes.
+Todos los usuarios necesitan que se les enseñe a bloquear la pantalla de su dispositivo cuando ya no estén cerca o en el control inmediato del dispositivo.
+Las mejores prácticas de bloqueo de pantalla incluyen:
+•	Los usuarios SIEMPRE deben bloquear su dispositivo al salir de la vecindad.
+•	Se debe solicitar a los usuarios que se autentiquen para desbloquear su dispositivo.
+•	Un dispositivo inactivo siempre debe bloquearse después de menos de 10 minutos.
+•	Un dispositivo bloqueado nunca debe revelar su contenido.
+
+
+
+
+
+
+
+
+
+
+

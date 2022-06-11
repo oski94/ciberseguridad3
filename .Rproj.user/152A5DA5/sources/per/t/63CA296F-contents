@@ -1,0 +1,16 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Informar incidentes
+El tiempo promedio que le toma a una empresa descubrir un evento de piratería maliciosa es de 8 meses, e incluso entonces es descubierto por alguien externo a la empresa de la víctima. Lamentablemente, muchas veces el incidente de seguridad fue notado por alguien dentro de la empresa mucho tiempo antes de que el equipo oficial de respuesta al incidente se enterara. El mantra, “Si ves algo, di algo” se aplica tanto en el mundo digital como en el mundo real.
+Todos los empleados deben saber cómo reconocer e informar incidentes de seguridad. Desea crear una cultura en la que las personas no tengan miedo de informar algo que no parece correcto. Deben ser alentados a informar todos los eventos sospechosos sin temor ni repercusiones. Use más “zanahorias” y menos “palos”.
+Las recomendaciones comunes de informes de incidentes incluyen:
+•	Algunos ejemplos memorables de incidentes de seguridad comunes.
+•	¿A quién llamas si ves algo sospechoso?
+•	Pautas sobre cómo informar un incidente de seguridad.
+•	Lo que la gente debería esperar después de haber realizado un informe.
+•	Mucho aliento amistoso destinado a convencer a las personas para que denuncien proactivamente los incidentes de seguridad.
+•	Qué hacer con una computadora o dispositivo que un empleado cree que puede haber sido comprometido. (¿Apagarlo? ¿Desmantelarlo? ¿Llevarlo al departamento de TI?)
